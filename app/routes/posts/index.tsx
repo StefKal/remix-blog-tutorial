@@ -25,6 +25,10 @@ export default function Posts() {
             </li>
         ))}
       </ul>
+
+      <Link to="admin" className="text-red-600 underline">
+        Admin
+      </Link>
     </main>
   );
 }
